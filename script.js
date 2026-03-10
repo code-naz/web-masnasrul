@@ -4,14 +4,6 @@ const backToTop = document.getElementById("backToTop");
 const nav = document.querySelector(".navbar");
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
-    nav.classList.add("shadow-sm");
-    nav.style.padding = "10px 0";
-  } else {
-    nav.classList.remove("shadow-sm");
-    nav.style.padding = "15px 0";
-  }
-
   if (window.scrollY > 500) {
     backToTop.style.display = "flex";
   } else {
@@ -66,4 +58,5 @@ if (contactForm) {
     }, 3000);
   });
 }
+
 
