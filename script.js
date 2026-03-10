@@ -19,6 +19,19 @@ window.addEventListener("scroll", () => {
   }
 });
 
+const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+const menuToggle = document.getElementById('navbarNav');
+const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+
+navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+        const toggler = document.querySelector('.navbar-toggler');
+        if (window.getComputedStyle(toggler).display !== 'none') {
+            bsCollapse.hide(); 
+        }
+    });
+});
+
 backToTop.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
@@ -53,3 +66,4 @@ if (contactForm) {
     }, 3000);
   });
 }
+
