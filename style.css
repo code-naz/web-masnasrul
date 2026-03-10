@@ -42,7 +42,6 @@ h1, h2, h3, h4, .navbar-brand {
 .navbar {
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.85);
-    transition: var(--transition);
 }
 
 .nav-link {
@@ -307,4 +306,5 @@ footer a:hover {
     }
 
 }
+
 
