@@ -8,7 +8,7 @@
     --transition: all 0.3s ease-in-out;
 }
 
-body {
+html, body {
     font-family: 'Open Sans', sans-serif;
     color: var(--text-dark);
     background-color: var(--white);
@@ -307,3 +307,4 @@ footer a:hover {
         font-size: 14px;
     }
 }
+
