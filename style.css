@@ -7,7 +7,9 @@
     --text-muted: #636e72;
     --transition: all 0.3s ease-in-out;
 }
-
+html {
+    overflow-x: hidden;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     color: var(--text-dark);
@@ -306,4 +308,5 @@ footer a:hover {
         padding: 8px 20px;
         font-size: 14px;
     }
+
 }
