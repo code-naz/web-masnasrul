@@ -1,2 +1,2 @@
 # web-masnasrul
-This my first web
+Web personal using HTML, CSS and Javascript.
